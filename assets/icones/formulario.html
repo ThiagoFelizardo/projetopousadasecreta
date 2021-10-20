@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<form  method="POST" action="">
+    
+        <fieldset>
+            <legend>Conta</legend>
+            <div>
+                <label>Email</label>
+                <input type="Text"><br>
+            </div>
+            <div>
+                <label>Senha</label>
+                <input type="password"><br>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <div>
+                <label>Nome:</label>
+                <input type="text">
+            </div>
+            <Div>
+                <label>Telefone</label>
+                <input type="tel" placeholder="(11) 99999-9999" >
+            </Div>
+            <div>
+                <label >Sexo</label>
+                <input type="radio" value="Masculino" name="sexo" checked>
+                <label>Masculino</label>
+                <input type="radio" value="Femenino" name="sexo">
+                <label>Femenino</label>
+            </div>
+            <div>
+                <label>Data de Nascimento:</label>
+                <input type="date">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Endereço</legend>
+            <div>
+                <label>Foto de Perfil</label>
+                <input type="file" accept="image/*">
+            </div>
+            <Div>
+                <label>Rua:</label>
+                <input type="text">
+            </Div>
+            <div>
+                <label>Complemento:</label>
+                <input type="text">
+            </div>
+            <div>
+                <label>Numero:</label>
+                <input type="number">
+            </div>
+            <div>
+                <label>Cidade</label>
+                <input type="text">
+            </div>
+            <div>
+                <label>Estado:</label>
+                <select>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="BR">Brasilia</option>
+                </select>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Anuncios</legend>
+            <div>
+                <label>Como conheçeu nosso Site?</label>
+                <textarea name="texto" maxlength="1000"></textarea>
+            
+            </div>
+            <div>
+                <input type="checkbox" checked>
+                <label>Deseja receber notificaçoes de nosso sit?</label>
+            </div>
+        </fieldset>
+    
+</form>
+<body>
+    
+</body>
+</html>
